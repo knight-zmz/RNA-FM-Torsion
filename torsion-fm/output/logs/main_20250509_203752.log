@@ -1,0 +1,172 @@
+2025-05-09 20:37:52,199 - root - INFO - ÅäÖÃ: {'EXPERIMENT_DIR': 'output\\20250509_203743', 'OUTPUT_DIR': './output', 'DATA_DIR': './datasets', 'BATCH_SIZE': 8, 'NUM_EPOCHS': 3, 'LEARNING_RATE': 0.0001, 'DEVICE': 'cuda'}
+2025-05-09 20:37:52,238 - root - INFO - Ê¹ÓÃÉè±¸: cuda
+2025-05-09 20:37:52,238 - root - INFO - ¼ÓÔØRNA-FMÄ£ĞÍ...
+2025-05-09 20:37:53,633 - root - INFO - RNA-FMÄ£ĞÍ¼ÓÔØÍê³É
+2025-05-09 20:37:53,633 - root - INFO - ´´½¨Êı¾İ¼¯£¬´ÓÄ¿Â¼: ./datasets
+2025-05-09 20:37:53,634 - data.dataset - INFO - ÕÒµ½1¸öpklÎÄ¼ş
+2025-05-09 20:37:53,634 - data.dataset - INFO - ´Ó»º´æ¼ÓÔØÊı¾İ: ./output\cache\processed_data.pt
+2025-05-09 20:37:53,650 - data.dataset - WARNING - ¼ÓÔØ»º´æÊ§°Ü: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.dtype was not an allowed global by default. Please use `torch.serialization.add_safe_globals([dtype])` or the `torch.serialization.safe_globals([dtype])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-05-09 20:37:53,651 - data.dataset - WARNING - É¾³ı¾É»º´æ²¢ÖØĞÂ´¦ÀíÊı¾İ...
+2025-05-09 20:37:53,651 - data.dataset - WARNING - »º´æµÄÊı¾İ¼¯Îª¿Õ»ò¼ÓÔØÊ§°Ü!
+2025-05-09 20:37:53,652 - data.dataset - INFO - ÕÒµ½ 1 ¸öÊı¾İÎÄ¼ş
+2025-05-09 20:37:54,071 - data.dataset - INFO - ¼ì²âµ½ÑµÁ·×Öµä¸ñÊ½: Training_Dict_single.pkl
+2025-05-09 20:37:54,132 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1hmh
+2025-05-09 20:37:54,140 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1mme
+2025-05-09 20:37:54,171 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1biv
+2025-05-09 20:37:54,200 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1etf
+2025-05-09 20:37:54,237 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zdi
+2025-05-09 20:37:54,275 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ull
+2025-05-09 20:37:54,275 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1kis
+2025-05-09 20:37:54,275 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1kis
+2025-05-09 20:37:54,353 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1aud
+2025-05-09 20:37:54,364 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1a4t
+2025-05-09 20:37:54,432 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1a1t
+2025-05-09 20:37:54,433 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1a9n
+2025-05-09 20:37:54,465 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 7msf
+2025-05-09 20:37:54,467 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 5msf
+2025-05-09 20:37:54,483 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zdk
+2025-05-09 20:37:54,523 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1hvu
+2025-05-09 20:37:54,535 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2bj2
+2025-05-09 20:37:54,535 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2bj2
+2025-05-09 20:37:54,552 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1qfq
+2025-05-09 20:37:54,563 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1bau
+2025-05-09 20:37:54,607 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 484d
+2025-05-09 20:37:54,607 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1d6k
+2025-05-09 20:37:54,607 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1eiy
+2025-05-09 20:37:54,614 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1exy
+2025-05-09 20:37:54,635 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1euq
+2025-05-09 20:37:54,647 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ffk
+2025-05-09 20:37:54,647 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ekz
+2025-05-09 20:37:54,648 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1f5u
+2025-05-09 20:37:54,697 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1foq
+2025-05-09 20:37:54,697 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1fje
+2025-05-09 20:37:54,723 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1g70
+2025-05-09 20:37:54,723 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1e7k
+2025-05-09 20:37:54,774 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ibm
+2025-05-09 20:37:54,861 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1k9w
+2025-05-09 20:37:54,935 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1l1c
+2025-05-09 20:37:55,007 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ls2
+2025-05-09 20:37:55,073 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1n34
+2025-05-09 20:37:55,210 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1nyb
+2025-05-09 20:37:55,222 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1p6v
+2025-05-09 20:37:55,223 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1p6v
+2025-05-09 20:37:55,267 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1qzc
+2025-05-09 20:37:55,298 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1r2w
+2025-05-09 20:37:55,314 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1qzc
+2025-05-09 20:37:55,495 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ry1
+2025-05-09 20:37:55,547 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1t4l
+2025-05-09 20:37:55,646 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1y1y
+2025-05-09 20:37:55,760 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1u63
+2025-05-09 20:37:55,761 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zc8
+2025-05-09 20:37:55,761 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zc8
+2025-05-09 20:37:55,761 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zc8
+2025-05-09 20:37:55,761 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zc8
+2025-05-09 20:37:55,761 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zc8
+2025-05-09 20:37:55,762 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zc8
+2025-05-09 20:37:55,771 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1x18
+2025-05-09 20:37:55,771 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1x18
+2025-05-09 20:37:55,772 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1x18
+2025-05-09 20:37:55,795 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zn1
+2025-05-09 20:37:55,817 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ysh
+2025-05-09 20:37:55,817 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ysh
+2025-05-09 20:37:55,818 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1ysh
+2025-05-09 20:37:55,831 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2adt
+2025-05-09 20:37:55,832 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1wz2
+2025-05-09 20:37:55,983 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2d19
+2025-05-09 20:37:55,983 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2d1b
+2025-05-09 20:37:56,000 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2b6g
+2025-05-09 20:37:56,000 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2ese
+2025-05-09 20:37:56,001 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2f4x
+2025-05-09 20:37:56,019 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2bq5
+2025-05-09 20:37:56,020 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2bs0
+2025-05-09 20:37:56,020 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2bq5
+2025-05-09 20:37:56,020 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2bs0
+2025-05-09 20:37:56,032 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2b2e
+2025-05-09 20:37:56,032 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2b2e
+2025-05-09 20:37:56,032 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2go5
+2025-05-09 20:37:56,032 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2go5
+2025-05-09 20:37:56,083 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2ake
+2025-05-09 20:37:56,089 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2dr2
+2025-05-09 20:37:56,089 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2agn
+2025-05-09 20:37:56,089 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2agn
+2025-05-09 20:37:56,089 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2izn
+2025-05-09 20:37:56,089 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2iz8
+2025-05-09 20:37:56,090 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2iz8
+2025-05-09 20:37:56,090 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2hgh
+2025-05-09 20:37:56,107 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2der
+2025-05-09 20:37:56,108 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2det
+2025-05-09 20:37:56,146 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 1zbh
+2025-05-09 20:37:56,175 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2iy3
+2025-05-09 20:37:56,175 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2j28
+2025-05-09 20:37:56,175 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2j37
+2025-05-09 20:37:56,175 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2j28
+2025-05-09 20:37:56,175 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2noq
+2025-05-09 20:37:56,175 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2noq
+2025-05-09 20:37:56,175 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2noq
+2025-05-09 20:37:56,195 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2ihx
+2025-05-09 20:37:56,195 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2ob7
+2025-05-09 20:37:56,195 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2fy1
+2025-05-09 20:37:56,207 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2il9
+2025-05-09 20:37:56,207 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2il9
+2025-05-09 20:37:56,219 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2du5
+2025-05-09 20:37:56,219 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2du4
+2025-05-09 20:37:56,219 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2du6
+2025-05-09 20:37:56,263 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2pcw
+2025-05-09 20:37:56,263 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2nr0
+2025-05-09 20:37:56,264 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2nr0
+2025-05-09 20:37:56,264 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2nr0
+2025-05-09 20:37:56,264 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2nr0
+2025-05-09 20:37:56,268 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2izm
+2025-05-09 20:37:56,277 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2jpp
+2025-05-09 20:37:56,329 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2om3
+2025-05-09 20:37:56,329 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2pn9
+2025-05-09 20:37:56,340 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2r93
+2025-05-09 20:37:56,354 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2om7
+2025-05-09 20:37:56,355 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2om7
+2025-05-09 20:37:56,355 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2om7
+2025-05-09 20:37:56,355 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2om7
+2025-05-09 20:37:56,355 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2om7
+2025-05-09 20:37:56,355 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2om7
+2025-05-09 20:37:56,355 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2om7
+2025-05-09 20:37:56,367 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2r1g
+2025-05-09 20:37:56,367 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2r1g
+2025-05-09 20:37:56,367 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2r1g
+2025-05-09 20:37:56,367 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2r1g
+2025-05-09 20:37:56,367 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2r1g
+2025-05-09 20:37:56,367 - data.adapters - INFO - Ìø¹ı¶àÁ´RNA: 2r1g
+2025-05-09 20:37:56,380 - data.adapters - INFO - ÊÊÅä×ª»»: Ô­Ê¼Êı¾İ 285 Ïî -> ÊÊÅäºó 161 Ïî
+2025-05-09 20:37:56,380 - data.dataset - INFO - ÊÊÅä´¦Àí³É¹¦: 161 ¸öÑù±¾
+2025-05-09 20:37:56,380 - data.dataset - INFO - Êı¾İ¼ÓÔØÍê³É: ×Ü¼Æ 161 ¸öÑù±¾
+2025-05-09 20:37:56,464 - data.dataset - INFO - Êı¾İÒÑ»º´æµ½: ./output\cache\processed_data.pt
+2025-05-09 20:37:56,464 - data.dataset - INFO - ³É¹¦¼ÓÔØ161¸öRNAÑù±¾
+2025-05-09 20:37:56,465 - root - INFO - ´´½¨Êı¾İ¼ÓÔØÆ÷...
+2025-05-09 20:37:56,465 - data.dataset - INFO - Êı¾İ¼¯´óĞ¡: 161
+2025-05-09 20:37:56,465 - data.dataset - INFO - Êı¾İ¼¯»®·Ö: ÑµÁ·¼¯=128, ÑéÖ¤¼¯=16, ²âÊÔ¼¯=17
+2025-05-09 20:37:56,469 - root - INFO - ´´½¨Å¤×ª½ÇÔ¤²âÄ£ĞÍ...
+2025-05-09 20:37:56,469 - models.torsion_predictor - INFO - Ê¹ÓÃÌá¹©µÄRNA-FMÄ£ĞÍ
+2025-05-09 20:37:56,469 - models.torsion_predictor - INFO - RNA-FM²ÎÊıÒÑ¶³½á
+2025-05-09 20:37:56,624 - root - INFO - ¿ªÊ¼ÑµÁ·£¬¹²3¸öepoch
+2025-05-09 20:38:43,870 - root - INFO - Epoch 1/3, Batch 10/16, Loss: 5.0574
+2025-05-09 20:38:45,649 - root - INFO - Epoch 1/3 ÑµÁ·Íê³É£¬ºÄÊ±: 49.02Ãë, Æ½¾ùËğÊ§: 5.0959
+2025-05-09 20:39:33,072 - root - INFO - Epoch 1/3 ÑéÖ¤Íê³É£¬Æ½¾ùËğÊ§: 3.1722
+2025-05-09 20:39:33,090 - models.torsion_predictor - INFO - Ä£ĞÍÒÑ±£´æµ½ output\20250509_203743\checkpoints\best_model.pth
+2025-05-09 20:39:33,090 - root - INFO - ×î¼ÑÄ£ĞÍÒÑ±£´æ£¬ÑéÖ¤ËğÊ§: 3.1722
+2025-05-09 20:40:19,584 - root - INFO - Epoch 2/3, Batch 10/16, Loss: 2.6240
+2025-05-09 20:40:21,274 - root - INFO - Epoch 2/3 ÑµÁ·Íê³É£¬ºÄÊ±: 48.18Ãë, Æ½¾ùËğÊ§: 2.9432
+2025-05-09 20:41:08,583 - root - INFO - Epoch 2/3 ÑéÖ¤Íê³É£¬Æ½¾ùËğÊ§: 1.9814
+2025-05-09 20:41:08,589 - models.torsion_predictor - INFO - Ä£ĞÍÒÑ±£´æµ½ output\20250509_203743\checkpoints\best_model.pth
+2025-05-09 20:41:08,589 - root - INFO - ×î¼ÑÄ£ĞÍÒÑ±£´æ£¬ÑéÖ¤ËğÊ§: 1.9814
+2025-05-09 20:41:55,738 - root - INFO - Epoch 3/3, Batch 10/16, Loss: 2.8241
+2025-05-09 20:41:57,531 - root - INFO - Epoch 3/3 ÑµÁ·Íê³É£¬ºÄÊ±: 48.94Ãë, Æ½¾ùËğÊ§: 2.5703
+2025-05-09 20:42:45,745 - root - INFO - Epoch 3/3 ÑéÖ¤Íê³É£¬Æ½¾ùËğÊ§: 1.9162
+2025-05-09 20:42:45,750 - models.torsion_predictor - INFO - Ä£ĞÍÒÑ±£´æµ½ output\20250509_203743\checkpoints\best_model.pth
+2025-05-09 20:42:45,750 - root - INFO - ×î¼ÑÄ£ĞÍÒÑ±£´æ£¬ÑéÖ¤ËğÊ§: 1.9162
+2025-05-09 20:42:45,750 - root - INFO - ÑµÁ·Íê³É
+2025-05-09 20:42:45,750 - root - INFO - ¼ÓÔØ×î¼ÑÄ£ĞÍ²¢ÔÚ²âÊÔ¼¯ÉÏÆÀ¹À...
+2025-05-09 20:42:45,757 - models.torsion_predictor - INFO - ´Ó output\20250509_203743\checkpoints\best_model.pth ¼ÓÔØÁËÄ£ĞÍ
+2025-05-09 20:42:45,757 - models.torsion_predictor - INFO - ¼ÓÔØÁËÅ¤×ª½ÇÀàĞÍ: ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'chi']

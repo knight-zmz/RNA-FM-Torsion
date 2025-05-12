@@ -1,0 +1,10 @@
+2025-05-08 16:16:42,417 - root - INFO - 配置: {'EXPERIMENT_DIR': 'output\\20250508_161634', 'OUTPUT_DIR': './output', 'DATA_DIR': './data/Training_Dict_single.pkl', 'BATCH_SIZE': 8, 'NUM_EPOCHS': 3, 'LEARNING_RATE': 0.0001, 'DEVICE': 'cuda'}
+2025-05-08 16:16:43,708 - root - INFO - 使用设备: cuda
+2025-05-08 16:16:43,708 - root - INFO - 加载RNA-FM模型...
+2025-05-08 16:16:46,602 - root - INFO - RNA-FM模型加载完成
+2025-05-08 16:16:46,603 - root - INFO - 创建数据集，从目录: ./data/Training_Dict_single.pkl
+2025-05-08 16:16:46,604 - data.dataset - INFO - 找到0个pkl文件
+2025-05-08 16:16:46,608 - data.dataset - INFO - 数据已缓存到: ./output\cache\processed_data.pt
+2025-05-08 16:16:46,608 - data.dataset - INFO - 成功加载0个RNA样本
+2025-05-08 16:16:46,608 - root - INFO - 创建数据加载器...
+2025-05-08 16:16:46,611 - data.dataset - INFO - 数据集划分: 训练集=0, 验证集=0, 测试集=0

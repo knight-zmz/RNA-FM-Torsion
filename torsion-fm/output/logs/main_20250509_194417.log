@@ -1,0 +1,7 @@
+2025-05-09 19:44:17,521 - root - INFO - 配置: {'EXPERIMENT_DIR': 'output\\20250509_194405', 'OUTPUT_DIR': './output', 'DATA_DIR': './dataset', 'BATCH_SIZE': 8, 'NUM_EPOCHS': 3, 'LEARNING_RATE': 0.0001, 'DEVICE': 'cuda'}
+2025-05-09 19:44:17,573 - root - INFO - 使用设备: cuda
+2025-05-09 19:44:17,573 - root - INFO - 加载RNA-FM模型...
+2025-05-09 19:44:19,810 - root - INFO - RNA-FM模型加载完成
+2025-05-09 19:44:19,811 - root - INFO - 创建数据集，从目录: ./dataset
+2025-05-09 19:44:19,811 - data.dataset - INFO - 找到1个pkl文件
+2025-05-09 19:44:19,814 - data.dataset - INFO - 从缓存加载数据: ./output\cache\processed_data.pt

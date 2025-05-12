@@ -1,0 +1,50 @@
+2025-05-09 21:34:29,023 - root - INFO - 配置: {'EXPERIMENT_DIR': 'output\\20250509_213420', 'OUTPUT_DIR': './output', 'DATA_DIR': './datasets', 'BATCH_SIZE': 8, 'NUM_EPOCHS': 1, 'LEARNING_RATE': 0.0001, 'DEVICE': 'cuda'}
+2025-05-09 21:34:29,054 - root - INFO - 使用设备: cuda
+2025-05-09 21:34:29,055 - root - INFO - 加载RNA-FM模型...
+2025-05-09 21:34:30,327 - root - INFO - RNA-FM模型加载完成
+2025-05-09 21:34:30,328 - root - INFO - 创建数据集，从目录: ./datasets
+2025-05-09 21:34:30,328 - data.dataset - INFO - 找到1个pkl文件
+2025-05-09 21:34:30,329 - data.dataset - INFO - 从缓存加载数据: ./output\cache\processed_data.pt
+2025-05-09 21:34:30,413 - data.dataset - INFO - 从缓存加载了 161 个样本
+2025-05-09 21:34:30,424 - data.dataset - INFO - 成功加载161个RNA样本
+2025-05-09 21:34:30,424 - root - INFO - 创建数据加载器...
+2025-05-09 21:34:30,424 - data.dataset - INFO - 数据集大小: 161
+2025-05-09 21:34:30,424 - data.dataset - INFO - 数据集划分: 训练集=128, 验证集=16, 测试集=17
+2025-05-09 21:34:30,425 - root - INFO - 创建扭转角预测模型...
+2025-05-09 21:34:30,425 - models.torsion_predictor - INFO - 使用提供的RNA-FM模型
+2025-05-09 21:34:30,426 - models.torsion_predictor - INFO - RNA-FM参数已冻结
+2025-05-09 21:34:30,438 - root - INFO - 开始训练，共1个epoch
+2025-05-09 21:35:17,569 - root - INFO - Epoch 1/1, Batch 10/16, Loss: 5.0574
+2025-05-09 21:35:19,307 - root - INFO - Epoch 1/1 训练完成，耗时: 48.87秒, 平均损失: 5.0959
+2025-05-09 21:36:06,537 - root - INFO - Epoch 1/1 验证完成，平均损失: 3.1722
+2025-05-09 21:36:06,547 - models.torsion_predictor - INFO - 模型已保存到 output\20250509_213420\checkpoints\best_model.pth
+2025-05-09 21:36:06,547 - root - INFO - 最佳模型已保存，验证损失: 3.1722
+2025-05-09 21:36:06,547 - root - INFO - 训练完成
+2025-05-09 21:36:06,547 - root - INFO - 加载最佳模型并在测试集上评估...
+2025-05-09 21:36:06,553 - models.torsion_predictor - INFO - 从 output\20250509_213420\checkpoints\best_model.pth 加载了模型
+2025-05-09 21:36:06,554 - models.torsion_predictor - INFO - 加载了扭转角类型: ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'chi']
+2025-05-09 21:36:06,554 - root - INFO - 测试结果将保存到: output\20250509_213420\test_results
+2025-05-09 21:36:53,948 - utils.evaluation - INFO - alpha - MAE: 37.42109904569738, 循环相关性: 0.29158482656759377
+2025-05-09 21:36:53,950 - utils.evaluation - INFO - beta - MAE: 29.317916196935318, 循环相关性: 0.36813027192564574
+2025-05-09 21:36:53,953 - utils.evaluation - INFO - gamma - MAE: 31.54138172374052, 循环相关性: 0.32430709635510163
+2025-05-09 21:36:53,957 - utils.evaluation - INFO - delta - MAE: 13.508925073287067, 循环相关性: 0.4382510307957144
+2025-05-09 21:36:53,961 - utils.evaluation - INFO - epsilon - MAE: 23.876041524550494, 循环相关性: 0.391522838788874
+2025-05-09 21:36:53,964 - utils.evaluation - INFO - zeta - MAE: 31.34115780101103, 循环相关性: 0.34454308713183684
+2025-05-09 21:36:53,968 - utils.evaluation - INFO - chi - MAE: 18.405657824348, 循环相关性: 0.4141469790655024
+2025-05-09 21:36:53,968 - utils.evaluation - INFO - 平均 MAE: 26.49°
+2025-05-09 21:36:53,987 - root - INFO - 评估完成，指标:
+2025-05-09 21:36:53,987 - root - INFO - alpha_mae: 37.4211
+2025-05-09 21:36:53,988 - root - INFO - alpha_corr: 0.2916
+2025-05-09 21:36:53,988 - root - INFO - beta_mae: 29.3179
+2025-05-09 21:36:53,988 - root - INFO - beta_corr: 0.3681
+2025-05-09 21:36:53,988 - root - INFO - gamma_mae: 31.5414
+2025-05-09 21:36:53,988 - root - INFO - gamma_corr: 0.3243
+2025-05-09 21:36:53,988 - root - INFO - delta_mae: 13.5089
+2025-05-09 21:36:53,988 - root - INFO - delta_corr: 0.4383
+2025-05-09 21:36:53,988 - root - INFO - epsilon_mae: 23.8760
+2025-05-09 21:36:53,989 - root - INFO - epsilon_corr: 0.3915
+2025-05-09 21:36:53,989 - root - INFO - zeta_mae: 31.3412
+2025-05-09 21:36:53,989 - root - INFO - zeta_corr: 0.3445
+2025-05-09 21:36:53,989 - root - INFO - chi_mae: 18.4057
+2025-05-09 21:36:53,989 - root - INFO - chi_corr: 0.4141
+2025-05-09 21:36:53,989 - root - INFO - avg_mae: 26.4875

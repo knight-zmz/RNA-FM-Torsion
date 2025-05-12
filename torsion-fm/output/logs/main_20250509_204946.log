@@ -1,0 +1,26 @@
+2025-05-09 20:49:46,121 - root - INFO - 配置: {'EXPERIMENT_DIR': 'output\\20250509_204937', 'OUTPUT_DIR': './output', 'DATA_DIR': './datasets', 'BATCH_SIZE': 8, 'NUM_EPOCHS': 1, 'LEARNING_RATE': 0.0001, 'DEVICE': 'cuda'}
+2025-05-09 20:49:46,160 - root - INFO - 使用设备: cuda
+2025-05-09 20:49:46,161 - root - INFO - 加载RNA-FM模型...
+2025-05-09 20:49:47,497 - root - INFO - RNA-FM模型加载完成
+2025-05-09 20:49:47,498 - root - INFO - 创建数据集，从目录: ./datasets
+2025-05-09 20:49:47,499 - data.dataset - INFO - 找到1个pkl文件
+2025-05-09 20:49:47,499 - data.dataset - INFO - 从缓存加载数据: ./output\cache\processed_data.pt
+2025-05-09 20:49:47,583 - data.dataset - INFO - 从缓存加载了 161 个样本
+2025-05-09 20:49:47,584 - data.dataset - INFO - 成功加载161个RNA样本
+2025-05-09 20:49:47,584 - root - INFO - 创建数据加载器...
+2025-05-09 20:49:47,584 - data.dataset - INFO - 数据集大小: 161
+2025-05-09 20:49:47,584 - data.dataset - INFO - 数据集划分: 训练集=128, 验证集=16, 测试集=17
+2025-05-09 20:49:47,585 - root - INFO - 创建扭转角预测模型...
+2025-05-09 20:49:47,585 - models.torsion_predictor - INFO - 使用提供的RNA-FM模型
+2025-05-09 20:49:47,586 - models.torsion_predictor - INFO - RNA-FM参数已冻结
+2025-05-09 20:49:47,596 - root - INFO - 开始训练，共1个epoch
+2025-05-09 20:50:34,887 - root - INFO - Epoch 1/1, Batch 10/16, Loss: 5.0574
+2025-05-09 20:50:36,657 - root - INFO - Epoch 1/1 训练完成，耗时: 49.06秒, 平均损失: 5.0959
+2025-05-09 20:51:23,652 - root - INFO - Epoch 1/1 验证完成，平均损失: 3.1722
+2025-05-09 20:51:23,660 - models.torsion_predictor - INFO - 模型已保存到 output\20250509_204937\checkpoints\best_model.pth
+2025-05-09 20:51:23,660 - root - INFO - 最佳模型已保存，验证损失: 3.1722
+2025-05-09 20:51:23,661 - root - INFO - 训练完成
+2025-05-09 20:51:23,661 - root - INFO - 加载最佳模型并在测试集上评估...
+2025-05-09 20:51:23,667 - models.torsion_predictor - INFO - 从 output\20250509_204937\checkpoints\best_model.pth 加载了模型
+2025-05-09 20:51:23,668 - models.torsion_predictor - INFO - 加载了扭转角类型: ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'chi']
+2025-05-09 20:52:10,880 - root - INFO - 评估完成，指标:
